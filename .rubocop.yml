@@ -1,0 +1,18 @@
+# Omakase Ruby styling for Rails
+plugins:
+  - rubocop-minitest
+
+AllCops:
+  NewCops: enable
+
+# Syntax Tree owns Ruby whitespace formatting, including compact array literals.
+Layout/SpaceInsideArrayLiteralBrackets:
+  Enabled: false
+
+inherit_gem: { rubocop-rails-omakase: rubocop.yml }
+
+# Overwrite or add rules to create your own house style
+#
+# # Use `[a, [b, c]]` not `[ a, [ b, c ] ]`
+# Layout/SpaceInsideArrayLiteralBrackets:
+#   Enabled: false
