@@ -65,6 +65,6 @@ gem "pundit", "~> 2.5"
 gem "strong_migrations", "~> 2.8"
 
 gem "rubocop", "~> 1.88", group: :development
-gem "rubocop-rails", "~> 2.36", group: :development
+gem "rubocop-rails", "~> 2.37", group: :development
 gem "rubocop-minitest", "~> 0.39.1", group: :development
 gem "syntax_tree", "~> 6.3", group: :development
